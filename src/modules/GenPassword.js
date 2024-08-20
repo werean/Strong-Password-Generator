@@ -19,8 +19,7 @@ export default class StrongPassword {
   }
   lowerCase() {
     const genLower = Math.floor(Math.random() * 26) + 97;
-    // const a = String.fromCharCode(genLower, "lower");
-    // console.log(a);
+
     return String.fromCharCode(genLower);
   }
   symbol() {
