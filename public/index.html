@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Password generator</title>
+    <script type="module" src="../src/modules/GenPassword.js"></script>
+  </head>
+
+  <body>
+    <section class="container">
+      <h1>Gerador de senhas</h1>
+      <div class="password"></div>
+      <div>
+        Quantidade de caracteres
+        <input type="number" class="quantity" value="30" min="0" />
+        <div class="error"></div>
+      </div>
+      <div>
+        Adicionar números <input type="checkbox" class="number" checked />
+      </div>
+      <div>
+        Letras maiúsculas <input type="checkbox" class="upper" checked />
+      </div>
+      <div>
+        Letras símbolos <input type="checkbox" class="symbol" checked />
+        <button class="gen-new">Gerar nova senha</button>
+      </div>
+    </section>
+    <script src="./assets/js/bundle.js"></script>
+  </body>
+</html>
